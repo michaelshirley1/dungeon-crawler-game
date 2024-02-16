@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5546360963107731224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8098667963671569017}
+  - component: {fileID: 3532198145627687856}
+  m_Layer: 0
+  m_Name: 3x3SubRoomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8098667963671569017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5546360963107731224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3532198145627687856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5546360963107731224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4b9d1859731f245b4be0bf10ee4e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FixedRoomPrefabs:
+  - {fileID: 6790598125198638453, guid: 253639f48e184c04e993f628d01c03f7, type: 3}
+  - {fileID: 4545778009313526602, guid: f03450c20d7505c43890b87e0bdc793b, type: 3}
+  - {fileID: 6657575980235643949, guid: f223f78cfbe80e640b0cfa3bd45f22b1, type: 3}
+  - {fileID: 6612745982592805609, guid: 15085681e263b89408192e6c15de6f50, type: 3}
+  - {fileID: 2985422924555850368, guid: c42d3fb9a02119c41aebfe9b4c0490e4, type: 3}
+  - {fileID: 3678536396000335476, guid: c9c251925f6ee0840b17e60e36c14cd8, type: 3}
+  - {fileID: 2525982792732472697, guid: 217cb8b6ccd85dc4fa8a28cd96e65ec8, type: 3}
+  - {fileID: 6198851266951032085, guid: 4493e28a40613b74aabbf1243cf4971c, type: 3}
+  - {fileID: 6574306359513068668, guid: 0a25dfc466f50f14ab4fd8e175970939, type: 3}
+  OpenDoor: {fileID: 8472284697978862505, guid: bb3843b930fc7934986ed3ed38638e20, type: 3}
+  ClosedDoor: {fileID: 2759089871569939641, guid: 2946747962b6e604ba764c5df9e74733, type: 3}

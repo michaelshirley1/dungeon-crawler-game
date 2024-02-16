@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3693171968293447991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2797850939275830550}
+  - component: {fileID: 4589201522151906984}
+  m_Layer: 0
+  m_Name: GridMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2797850939275830550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693171968293447991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4589201522151906984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693171968293447991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd11e9c943e2cfa4e9cf4413e6bf3190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxGridSize: {x: 50, y: 50}
+  PaddingSize: 1
+  Rooms:
+  - {fileID: 1126273315335927807, guid: ec2a2d41b68670c469c1856a20b403e1, type: 3}
+  - {fileID: 9198548878857024570, guid: a43fa60dc653fd54ebcb8992d5200988, type: 3}
+  - {fileID: 1649592971606991765, guid: 0f5e46555b581e64f9094eba2c9acbe2, type: 3}
+  NumberOfRoomsToSpawn: 20
