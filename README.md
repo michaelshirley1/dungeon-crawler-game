@@ -9,7 +9,7 @@ Around 70% completed, need additions of enemies and loot. Most of the assets and
 
 The main focus is physics based fun, all objects can be manipulated by the player and thrown to damage enemies. 
 
-The folders are quiet unorganised but all the scripting is done in assets/scripts, all above ground generation is done in the terraingenerator folder, all below ground is done in the ProcGen and Tomb Generator folder
+The folders are quite unorganised but all the scripting is done in assets/scripts, all above ground generation is done in the terraingenerator folder, all below ground is done in the ProcGen and Tomb Generator folder
 
 
 Uses an algorithm designed by me that uses perlin noise to generate terrain over 1 square km without the need for loading screens, without any lag - folder TerrainGenerator and all other folders
